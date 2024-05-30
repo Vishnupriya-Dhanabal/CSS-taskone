@@ -1,61 +1,515 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin:0;
+    padding:0;
+    /* overflow: hidden; */
 }
 
-nav{
-    background-color: black;
-    color: white;
-    padding: 15px;
-}
-li,ul,h1{
-    display: inline;
-}
-ul{
-    margin-left: 60%;
-}
-li{
-    color: gray;
-    cursor: pointer;
-}
-
-li:hover{
-    color: white;
-}
-input{
-    width: 600px;
-    padding: 10px;
-}
-.searchbar{
-    padding: 80px;
-    text-align: center;
+body{
+    background-color: white;
+    color: black;
+    margin-top:  50px;
+    font-family: 'open sans','sans-serif';
+    position: absolute;
     
+}
+    
+  
+.menu{
+    font-size: 35px;
+    margin-top: 10px;
+    margin-left: 180px;
+    display: inline;
+    
+}
+.menu:hover{
+    cursor: pointer;
+    color: rgb(209,75,75);
+}
+#blue{
+    background-color: #7fc0ca;
+    height: 600px;
+    padding-top:70px;
 }
 .box{
-    border-color:black ;
-    border-style:solid;
-    border: width 2px;
-    display:inline-block;
-    width: 220px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    display: black;
+    color: white;
+    padding: px;
+    text-align: left;
     
-}
-.box:hover{
-    background-color: black;
-    color: white;
-}
-.product{
-    text-align: center;
-}
-.about{
-    text-align:center;
-    margin: 30px;
-    padding: 10px;
-}
-.contact{
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 40px;
 
 }
+
+.h2{
+    font-weight: 400 !important;
+  
+ font-size: 2.2rem;
+    margin-top: 20px;
+    margin-bottom:20px;
+    margin-left: 160.5px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+}
+
+
+
+.para{
+    margin-top:10px;
+    padding: 10px;
+    margin-left: 160px;
+    font-size:20px;
+    line-height: 1.5;
+    width: 600px;
+    font-weight: 700px;
+   
+}
+.type{
+    font-family: 'open sans',sans-serif;
+
+}
+
+.font{
+    font-family: 'montserrat',sans-serif;
+
+}
+
+.h1{
+    margin-top: 15px;
+    margin-left: 110px;
+ 
+
+}
+
+.our{
+    margin-top: 30px;
+    margin: left 10px;
+
+}
+
+.button{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight:bold;
+    font-size: 20px;
+    margin: 20px;
+    margin-top: 30px;
+    margin-left: 170px;
+    padding: 25px 50px;
+    border-radius: 90px;
+    border-style: none;
+}
+
+.button:hover{
+    background-color: #252521;
+    color: whitesmoke;
+    cursor: pointer;
+
+}
+
+.head{
+    text-align: center;
+    margin:60px;
+    margin-bottom: 25px;
+    font-size: 40px;
+    font-weight: 400 !important;
+  
+    font-size: 2.2rem;
+       margin-top: 65px;
+       margin-bottom:20px;
+       margin-left: px;
+       font-family: "Montserrat", sans-serif;
+       font-optical-sizing: auto;
+       /* font-weight: <weight>; */
+       font-style: normal;
+
+}
+
+
+.p{
+    text-align: center;
+    padding: 2px;
+    font-size: 20px;
+    font-weight: 400px;
+    font-family: "Montserrat", sans-serif;
+   
+  
+    font-size: 17px;
+       margin-top: 20px;
+       margin-bottom:20px;
+       /* margin-left: 10px; */
+}
+
+.images{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    margin-top: 30px;
+    padding: 4px;
+
+}
+
+
+.img1{
+    width: 370px;
+    height: 340px;
+    border: 3px;
+    margin: 7px;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+    padding-right: 5px;
+}
+.img-div{
+    overflow: hidden;
+    width: 380px;
+    height: 350px;
+   
+}
+
+
+
+.img-div:hover .img1 {
+    transform: scale(1.2); 
+}
+
+
+
+.people{
+    margin-top: 40px;
+    background-color: rgb(44, 41, 41);
+    padding: 20px;
+    font-family: "Rajdhani", sans-serif;
+   
+}
+
+.say{
+    color: white;
+    padding: 30px;
+    margin-left: 130px;
+    margin-top: 40px;
+    font-weight: -50px;
+    font-size:40px;
+    margin-top: 20px;
+    margin-bottom:10px;
+    
+   
+   
+ }
+ 
+ .container{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 4px;
+     margin-bottom: 50px;
+     box-sizing: border-box;
+     padding: 10px;
+     font-weight: 70px !important;
+      font-family: "Montserrat", sans-serif;
+ }
+ 
+ .flex{
+     font-size:18px;
+     width: 300px;
+     height: 270px;
+     margin: 10px;
+     padding: 30px;
+     background-color: white;
+     color: black;
+     font-family: "Montserrat", sans-serif;   
+ }
+ 
+ .one{
+     text-transform: uppercase;
+     padding: 15px;
+     letter-spacing: 3px;
+     font-weight: normal;
+     font-family: "Montserrat", sans-serif;
+ }
+ 
+ .two{
+     padding: 10px;
+     color: rgb(151, 198, 214);
+     text-transform: uppercase;
+     letter-spacing: 2px;
+     font-weight: normal;
+     font-family: "Montserrat", sans-serif;
+ }
+ 
+ .proin{
+     padding: 10px;
+     line-height: 1.5; 
+     font-weight: lighter;   
+ }
+ 
+ .monday{
+     letter-spacing: 1px;
+     color: gray;
+     padding: 20px;
+     margin-top: 10px;
+     text-transform: uppercase;
+     font-weight: normal;
+ }
+ 
+ .projects{
+    text-align: center;
+    margin-top: 60px;
+    font-weight: 200px;
+    font-size:38px;
+    text-transform: none;
+    font-family: 'open sans',sans-serif;
+  
+    
+
+ 
+ }
+ 
+ .para2{
+     text-align: center;
+     margin-top: 30px;
+     font-size: 18px;
+ }
+ 
+ .para3{
+     text-align: center;
+     margin-top: 5px;
+     font-size: 17px;
+ }
+ 
+ .from{
+     text-align: center;
+     margin-top: 40px;
+     font-size: 1.125rem;
+ }
+ 
+ .freepic{
+     text-align: center;
+     margin-top: 6px;
+     font-size: 1.125rem;
+ }
+ 
+ .images2{
+     display: flex;
+     flex-wrap: wrap;
+     /* align-items; */
+     justify-content: center;
+     padding: 4px;
+     margin-top: 20px;
+ }
+ 
+ .img2{
+     width: 400px;
+     height: 350px;
+     border: 2px;
+     margin: 8px;
+     cursor: pointer;
+     background-size: cover;
+     overflow: hidden;
+     transition: 500ms;
+ }
+ 
+ .img2:hover{
+     transform: scale(1.05);
+ }
+ 
+ /*.helped{
+     background-color: rgb(34, 32, 32);
+     color: white;
+     padding: 100px;
+     margin-top: 30px;    
+ }
+ .walnut{
+     margin-top:0
+     margin-bottom:0
+     }    */
+ 
+ .helped{
+     background-color: rgb(51, 48, 48);
+     color: white;
+     margin-top: 40px;
+     height: 850px;
+ }
+ 
+ .container2{
+     display: flex;
+ 
+ }
+ 
+ .flex2{
+     justify-content: center;
+ }
+ 
+ .ten{
+    margin-left: 200px; 
+ }
+ 
+ .since{
+     width: 450px;
+     margin-top: 120px;
+     font-size: 35px;
+    text-transform:none;
+     
+ }
+ 
+ .bxs-envelope{
+     margin-top: 30px;
+     font-size: 50px;
+     color: #7fc0ca
+ }
+ 
+ .address{
+     margin-top: 20px;
+     text-transform: uppercase;
+     font-size: 17px;
+ }
+ 
+ .info{
+    text-transform: uppercase;
+    margin-top: 2px; 
+    font-size: 22px;
+    font-weight: bold;
+ }
+ 
+ .hr{
+     margin-top: 13px;
+ }
+ 
+ .text{
+     margin-top: 90px;
+     font-size: 17px;
+ }
+ 
+ .nine{
+     margin-left: 90px;
+ }
+ 
+ .us{
+     text-transform: uppercase;
+     font-weight: normal;
+     margin-top: 120px;
+     font-size: 21px;
+ }
+ 
+ .nut{
+     margin-top: 30px;
+     font-size: 19.5px;
+ }
+ .hill{
+     line-height: 1.6;
+     font-size: 19.5px;
+ }
+ 
+ .cali{
+     line-height: 1.6;
+     font-size: 1.125rem;
+ }
+ 
+ .tell{
+     margin-top: 40px;
+     font-size: 25px;
+ }
+ 
+ .el{
+     display: inline;
+     font-size: 20px;
+ }
+ 
+ .num{
+     display: inline;
+     font-weight: bold;
+ }
+ 
+ .click{
+     margin-top: 160px;
+     font-size: 19.5px;
+ }
+ 
+ .eight{
+     margin-left: 60px;
+     margin-top: 120px;
+ }
+ 
+ .social{
+     text-transform: uppercase;
+     font-weight: normal;
+     font-size: 19.5px;
+     margin-top: 100px;
+     margin-top: 80px;
+ }
+ 
+ .logo{
+     margin-top: 40px;
+ }
+ 
+ .bxl-twitter{
+     font-size: 35px;
+     color: #7fc0ca;
+     margin-left: 10px;
+     margin-right: 10px;
+     
+ }
+ 
+ .bxl-facebook{
+     font-size: 45px;
+     color: #7fc0ca
+ }
+ 
+ .bxl-instagram{
+     font-size: 40px;
+     color: #7fc0ca
+ }
+ 
+ .boy{
+     display: flex;
+     margin-top: 170px;
+ }
+ 
+ .the{
+     text-align: center;
+     margin-top: 150px;
+     font-size: 16px;
+ }
+ 
+ .template{
+     text-align: center;
+     font-size: 12px;
+     margin-top: 60px;
+ }
+ 
+ .tem{
+     display: inline-block;
+ }
+ 
+ .tem:hover span{
+     cursor: pointer;
+     color: gray;
+ }
+ 
+ .tem:hover, .tem.line:focus{
+     text-decoration: none;
+ }
+ 
+ .creat{
+     display: inline-block;
+ }
+ 
+ .buil{
+     display: inline-block;
+ }
+ 
+ .buil:hover span{
+     cursor: pointer;
+     color: gray;
+ }
+ 
+ .buil:hover, .buil.line:focus{
+     text-decoration: none;
+ }
+ 
+
+
+
+
 
